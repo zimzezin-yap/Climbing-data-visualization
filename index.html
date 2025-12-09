@@ -1,0 +1,39 @@
+<!--bezierCurve To 버전-->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Climbing data visualization is an analytical method that uses hold coordinates and athletes’ movement records collected from climbing competitions to represent motion patterns as smooth, realistic curves. Through SVG-based point and line rendering, the route structure is visually reconstructed, enabling comparison of athletes’ strategies and performance analysis.">
+
+    <meta property="og:title" content="Climbing Visualization" />
+    <meta property="og:url" content=" " />
+    <meta property="og:image" content=" " />
+    <meta property="og:image:alt" content="Visualization of climbing routes" />
+    <meta property="og:description"
+        content="Interactive visualization of climbing routes using athlete movement data." />
+
+    <title>climbing visualization</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <div class="top-box">
+        <h1>Bouldering Route Visualization</h1>
+        <h2>Climbing World Cup Boulder finals | Seoul 2024</h2>
+    </div>
+    <div class="stage-wrap">
+        <svg id="stage" class="stage" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid meet">
+            <image href="./static/image/final4.svg" x="0" y="0" width="1920" height="1080" />
+        </svg>
+    </div>
+
+    <div class="bottom-box">
+
+        <script src="./static/js/main.js"></script>
+</body>
+
+</html>
